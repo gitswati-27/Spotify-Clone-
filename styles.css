@@ -99,6 +99,64 @@ a{
 /* .box .badge{
     margin: 0.25rem 0;
 } */
+
+.mainnav{
+    position:sticky;
+    top: 0;
+    background-color: #121212;
+    height: 3rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.mainnav-arrows{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.buttonbgm{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.buttonbgm .back{
+    margin-right: 0.3rem;
+}
+
+.buttonbgm .forward{
+    margin-left: 0.3rem;
+}
+
+.mainnav-options{
+    margin-right: 1.5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainnav-options button{
+    margin-right: 0.75rem;
+}
+
+.dark-badge{
+    background-color: #000;
+    color:#fff;
+    font-weight: 700;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor:pointer;
+    border: none;
+}
 .main{
     background-color: #121212;
     flex: 1;
@@ -114,4 +172,10 @@ a{
     bottom:0px;
     width: 100%;
     height: 72px;
+}
+
+@media(max-width:1000px){
+    .hide{
+        display:none;
+    }
 }
