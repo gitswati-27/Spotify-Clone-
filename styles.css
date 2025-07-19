@@ -13,7 +13,7 @@ body{
 
 .sidebar{
     background-color: #000;
-    width:300px;
+    width:320px;
     border-radius: 1rem; /*16px*/
     margin:0.5rem;
 }
@@ -70,11 +70,12 @@ a{
 .lib-function i:hover{
     opacity:1;
 }
+
 .box{
     background-color: #232323;
     border-radius: 0.75rem;
-    padding: 0.5rem;
-    margin-top: 0.5rem;
+    padding: 0.25rem;
+    /* margin-top: 0.5rem; */
 }
 
 .boxp1{
@@ -164,6 +165,43 @@ a{
     overflow:auto;
     margin-right:0.5rem;
     margin-top:0.5rem;
+}
+.cards{
+    padding:0.8rem;
+}
+
+.cards-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom:1rem;
+}
+.card{
+    /* background-color: #1f1f1f; */
+    width: 9rem;
+    padding: 0.5rem 0.5rem 0.1rem 0.5rem;
+    border-radius:0.25rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color:rgb(35, 35, 35,0.5);
+    box-shadow: 0.5rem 0.5rem 2rem black;
+}
+
+.card-img{
+    width:100%;
+    border-radius: 0.25rem;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-info{
+    opacity:0.8;
+    font-size:0.9rem;
 }
 
 .player{
