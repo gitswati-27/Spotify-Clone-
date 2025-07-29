@@ -112,6 +112,7 @@ a{
     justify-content: space-between;
     align-items: center;
     margin-top: 0.5rem;
+    z-index: 10;
 }
 
 .mainnav-arrows{
@@ -206,14 +207,77 @@ a{
     font-size:0.9rem;
 }
 
+.footer{
+    height:250px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 90%;
+    height: 40%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
 .player{
     background-color: #000;
     position:fixed;
     bottom:0px;
     width: 100%;
     height: 72px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1rem; */
 }
 
+.album-info{
+    width: 25%;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    height:100%;
+    margin-left: 1rem;
+}
+
+#album-cover{
+    width: 4rem;
+    height: 4rem;
+}
+
+.album-img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1.5rem;
+    opacity: 0.8;
+}
+
+.album-info{
+    margin-left: 1rem;
+}
+
+.album-title{
+    font-size: 0.9rem;
+    margin-left: 2rem;
+    margin-top: -0.5rem;
+}
+
+.album-info p{
+    font-size: 0.7rem;
+    margin-top: -1rem;
+    opacity: 0.8;
+}
+.progress-bar{
+    width:50%;
+    height:100%;
+}
+
+.controls{
+    width:25%;
+    height:100%;
+}
 @media(max-width:1000px){
     .hide{
         display:none;
